@@ -88,7 +88,7 @@ function getWinnersByYear(array,getFinalsCB ,getYearsCB, getWinnersCB) {
     return winners.map((item, index)=> `In ${years[index]}, ${item} won the world cup!`) 
 }
 
-console.log(getWinnersByYear(fifaData,getFinals ,getYears, getWinners))
+console.log(getWinnersByYear(fifaData,getFinals ,getYears, getWinners)); 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use the higher order function getAverageGoals to do the following: 
