@@ -81,7 +81,7 @@ Use the higher-order function getWinnersByYear to do the following:
 hint: the strings returned need to exactly match the string in step 4.
  */
 
-function getWinnersByYear(array,getFinalsCB, getYearsCB, getWinnersCB) {
+function getWinnersByYear(array,getFinalsCB ,getYearsCB, getWinnersCB) {
     const finals = getFinalsCB(array, getFinals)
     const winners = getWinnersCB(array, getFinals); 
     const years = getYearsCB(array, getFinals);
@@ -106,7 +106,7 @@ function getAverageGoals(array) {
    }, 0)
     return (averageHomeGoals / array.length).toFixed(2);  
 }
-console.log('task 6:', getAverageGoals(fifaData));
+console.log('task 6:', getAverageGoals(fifaData))
 
 
 
